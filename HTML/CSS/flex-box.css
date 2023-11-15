@@ -1,0 +1,165 @@
+/* flex-box styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* end of flex-box styling */
+
+/* text-decoration styling */
+a {
+    text-decoration: none;
+}
+/* text-decoration styling */
+
+/* nav-header styling */
+.nav-header {
+height: 96px;
+display: flex;
+align-items: center;
+margin-right: 200px;
+}
+/* end of nav-header styling */
+
+/* nav-links styling */
+.nav-links {
+height: 0;
+display: flex;
+align-items: center;
+width: 100%;
+}
+/* end of nav-links styling */
+
+/* nav-link styling */
+.nav-link {
+    margin-right: 100px;
+
+}
+/* end of nav-link styling */
+
+/* nav-bar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* end of nav-bar styling */
+
+/* nav-center styling */
+.nav-center {
+    width: 90vw;
+    max-width: 1280px;
+    display: flex;
+    align-items: center;
+}
+/* end of nav-center styling */
+
+/* nav-link:hover styling */
+.nav-link:hover {
+    color: gold;
+}
+/* end of nav-link:hover styling */
+
+/* btn styling */
+.btn {
+    cursor: pointer;
+    color: white;
+    text-transform: capitalize;
+    display: inline-block;
+    padding: 10px 32px;
+    border-radius: 4px;
+    background-color: #1070ff;
+}
+/* end of btn styling */
+
+/* btn:hover styling  */
+.btn:hover {
+    background: gray;
+}
+/* end of btn:hover styling  */
+
+/* contact-link styling */
+.contact-link {
+    margin-right: 0;
+    /* margin-left: auto; */
+}
+/* end of contact-link styling */
+
+/* log-in styling */
+.log-in {
+    margin-right: 22px;
+    font-size: 1.25rem;
+    color: black;
+}
+/* log-in styling */
+
+/* linc-c styling */
+.line-c {
+    width: 100%;
+    height: 1px;
+    background: gray;
+    margin-bottom: 100px;
+}
+/* end of linc-c styling */
+
+/* nav background-color styling */
+nav {
+    background-color:peru;
+}
+/* nav background-color styling */
+
+/* a styling */
+a {
+    color:black;
+}
+/*end of a styling */
+
+
+.text {
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+}
+
+.paragraph {
+font-size: smaller;
+text-align: center;
+}
+
+.image {
+display: flex;
+justify-content: center;
+padding: 20px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+.flex-contianer {
+    display: flex;
+}
+
+.relationship {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.date {
+    margin-top: 0;
+    margin-left: 20%;
+
+}
+.time {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3%;
+    height: 3%;
+}
+
+.text {
+    font-size: smaller;
+    margin-left: 28%;
+    width: 738px;
+    height: 48px;
+}
+
+

@@ -1,0 +1,409 @@
+
+/* second html css backgroungcolor */
+body {
+    background-color: darkslategray;
+    color: black;
+/* end of second html css backgroungcolor */
+
+}
+/* CSS TABLE STYLING */
+Table {
+    width: 100%;
+}
+table,th, td {
+    border: 1px solid  black;
+    border-collapse: collapse;
+} 
+/* END OF CSS TABLE STYLING */
+
+/* padding styling */
+th, td {
+padding: 10px;
+}
+/* end of padding styling */
+
+/* text-align styling */
+td{
+    text-align: center;
+}
+/* end of text-align styling */
+ 
+/* :nth-child() CSS SELETOR */
+tr:nth-child(even) {
+    background-color: aqua;
+}
+tr:nth-child(odd) {
+    background-color: chartreuse;
+}
+
+/* end of :nth-child() CSS SELETOR */
+
+th{
+    font-weight: 900;
+    font-size: 30px;
+}
+
+/* HTML ID AND CLASSES  */
+#lagos-city {
+    background-color: gold;
+    color: aliceblue;
+}
+
+.city {
+    background-color: coral;
+}
+
+/* END OF HTML ID AND CLASSES  */
+
+/* HTML INLINE AND BLOCK ELEMENT STYLING */
+.character {
+   color: #880;
+}
+
+/* END OF HTML INLINE AND BLOCK ELEMENT STYLING */
+
+/* HTML FORMS STYLING */
+ textarea {
+    resize: none;
+ }
+/* END OF HTML FORMS STYLING */
+
+ .p-edit {
+    background-color: darkkhaki;
+}
+/* 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+
+/* h2 paragraph class styling */
+h2,p {
+    text-align: center;
+    color: red;
+}
+/* end of h2 paragraph class styling */
+
+/* div paragraph styling */
+/* 
+div p {
+    font-size: 40px;  
+} */
+
+/* end of div paragraph styling */
+
+
+/* div paragraph section styling  */
+div > p {
+    font-size: 40px;  
+}
+
+/* div > section > {
+    font-size: 40px;  
+} */
+
+/* end of div paragraph section styling  */
+
+/* css color styling */
+div + button {
+
+    width: 100px;
+    height: 50px;
+    background-color: rgb(0, 0, 255);
+    font-size: 20px;
+}
+
+div + button:hover {
+    background-color: rgba(0, 0, 255, 0.5);
+}
+/* end of css color styling */
+
+/* css background image styling */
+.picture {
+    background-image: url(../IMAGES/freshly0.jpg);
+    background-size: auto;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    height: 600px;
+
+
+}
+
+.picture2 {
+    background-image: url(../IMAGES/Screenshot\ 2023-10-18\ 091521.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    height: 1250px;
+}
+
+.picture3 {
+    background-image: url(../IMAGES/pfdjeqw5re\ \(2\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+}
+
+.margin-top {
+    margin-top: 30px;
+}
+
+
+.pro-ad-button {
+    /* padding: 15px; */
+    text-decoration: none;
+    color: white;
+    background: green;
+    padding: 10px 15px;
+    border: 1px solid green;
+    border-radius: 3px;
+    
+    /* padding: 15px 15px 10px 10px; */
+    /* padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px; */
+    /* font-style: bold;
+    font-weight: 800; */
+
+}
+/* end of css background image styling */
+
+.container {
+    padding: 20%;
+  }
+  
+  .header-styling {
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin-bottom: 12px;
+  }
+  
+  .left-div-style {
+    background-color: purple;
+    width: 70%;
+    height: 200px;
+  }
+  
+  .right-div-style {
+    background-color: gold;
+    width: 28%;
+    height: 200px;  
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .footer-styling {
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+  }
+
+/* h1.hidden {
+    display: none;
+} */
+h1.hidden {
+    visibility: hidden;
+}
+
+div.ex1 {
+    width: 800px;
+    margin: auto;
+    border: 3px solid green;
+}
+
+div.ex2 {
+    max-width: 800px;
+    min-width: 500px;
+    margin: auto;
+    border: 3px solid green;
+}
+
+/* Flex styling */
+.container {
+    padding: 20%;
+  }
+  
+  .header-styling {
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.1px;
+    padding-bottom: 0.1px;
+    margin-bottom: 12px;
+  }
+  
+  .left-div-style {
+    background-color: purple;
+    width: 70%;
+    height: 200px;
+  }
+  
+  .right-div-style {
+    background-color: gold;
+    width: 28%;
+    height: 200px;  
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+  }
+  
+  .footer-styling {
+    background-color: orangered;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px; 
+  }
+/* End of flex styling */
+
+/* CSS POSITION STYLING */
+
+/* POSITION RELATIVE */
+
+.relative {
+    position: relative;
+    width: 700px;
+    left: 30px;
+    border: 3px solid #73ad73;
+  }
+
+/* POSITION RELATIVE */
+
+  /* POSITION ABSOLUTE */
+
+.relative-2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73ad73;
+  }
+
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 100px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73ad73;
+    background-color: brown;
+  }
+
+.relative-3 {
+    /* position: relative; */
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73ad73;
+  }
+
+
+.absoluted {
+    /* position: absolute;
+    top: 80px;
+    right: 0; */
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73ad73;
+    background-color: aqua;
+  }
+  
+  /*END OF POSITION ABSOLUTE */
+
+  /* POSITION FIXED */
+  .fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid green; 
+  }
+/*END OF POSITION FIXED */
+
+.sticky {
+position: sticky;
+/* top: 0; */
+top: 10px;
+background-color: green;
+border: 2px solid #4caf50;
+}
+
+ /*END OF CSS POSITION STYLING */
+/*  
+ .container {
+    position: relative;
+ }
+
+ .black-box {
+    position: relative;
+    z-index: 1;
+    border: 2px solid black;
+    height: 100px;
+    margin: 30px;
+ }
+
+ .gray-box {
+    position: absolute;
+    z-index: 3;
+    background: lightgray;
+    height: 60px;
+    width: 70px;
+    left: 50px;
+    top: 50px;
+} */
+
+.green-box {
+    position: absolute;
+    z-index: 2;
+    background: lightgray;
+    width: 35%;
+    left: 270px;
+    top: 15px;
+    height: 100px;
+}
+
+.flex-container-4 {
+    display: flex;
+    background-color: blue;
+    flex-direction: column-reverse;
+}
+  
+.flex-container-4 > div {
+background-color: white;
+margin: 10px;
+padding: 20px;
+font-size: 30px;
+}
+
+.flex-container-5  {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: dodgerblue;
+}
+
+.flex-container-5 > div {
+    background-color: azure;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+
